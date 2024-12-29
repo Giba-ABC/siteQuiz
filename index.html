@@ -1,0 +1,189 @@
+<!-- Declaração -->
+<!-- https://www.youtube.com/watch?v=AB35iSr1YyA&list=PLhkO7OMKgT_rwCMqErLDnhcxVWy8t0e74&index=9 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Quiz para Programadores</title>
+    <meta name="description" content="Um Quiz Interativo">
+    <meta name="author" content="Giba">
+    <meta http-equiv=" Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz para Programadores</h1>
+        <p>Teste seus conhecimentos em <b>programação</b> !</p>
+    </header>
+    <main>
+        <!-- Introdução -->
+        <section>
+            <h2>Sobre esse Quiz</h2>
+            <p>Este quiz <strong>serve</strong> para testar</p>
+            <p>Usando algumas <em>linguagens</em> de <i>programação</i></p>
+            <p><abbr title="HiperText Markup Language">HTML</abbr> + CSS</p>
+        </section>
+        <!--Pergunta 1 radio-->
+        <section>
+            <h2>Pergunta 1: Qual linguagem é usada para estrutura WEB</h2>
+            <form>
+                <input type="radio" value="Python" id="p1a" name="pergunta1">
+                <label for="p1a">Python</label><br>
+                <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                <label for="p1b">HTML</label><br>
+                <input type="radio" value="JS" id="p1c" name="pergunta1">
+                <label for="p1c">JS</label><br>
+                <input type="radio" value="Ruby" id="p1d" name="pergunta1">
+                <label for="p1d">Ruby</label><br>
+            </form>
+        </section>
+        <!-- Pergunta 2 texto-->
+        <section>
+            <h2>Pergunta 2: Na URL https://www.google.com google.com é ?</h2>
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite a reposta">
+            </form>
+        </section>
+        <!--Pergunta 3 senha-->
+        <section>
+            <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+            <form>
+                <input type="password" id="ap3" name="pergunta3" placeholder="Digite uma senha ...">
+            </form>
+        </section>
+        <!-- Pergunta 4 data-->
+        <section>
+            <h2>Em que ano HTML lançou sua 1 versão </h2>
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+        <!-- Pergunta 5 Check-->
+        <section>
+            <h2>Pergunta 5: Quais destas tecnologias são consideradas linguagens </h2>
+            <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="JavaScrpit">
+                <label for="p5a">JavaScript</label>
+                <input type="checkbox" id="p5b" name="pergunta5" value="HTML">
+                <label for="p5b">HTML</label>
+                <input type="checkbox" id="p5c" name="pergunta5" value="Java">
+                <label for="p5c">Java</label>
+                <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
+                <label for="p5d">CSS</label>
+
+
+
+
+            </form>
+        </section>
+        <!-- Pergunta 6 upload-->
+        <section>
+            <h2>Faça o upload de um arquivo fazendo um codigo HTML</h2>
+            <form>
+                <input type="file" id="p6" name="pergunta6">
+            </form>
+        </section>
+        <!-- Pergunta 7 menu suspenso-->
+        <section>
+            <h2>Selecione o atributo do input que define seu tipo</h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="id">ID</option>
+                    <option value="type">Type</option>
+                    <option value="placeholder">placeholder</option>
+                </select>
+            </form>
+        </section>
+        <!-- Pergunta 8 colocando imagens-->
+        <section>
+            <h2>Pergunta 8: Qual linguagem de programação do logo abaixo </h2>
+            <figure>
+                <img src="./assets/OIP.jpg" alt="Java Zé ...">
+                <figcaption>Figura 1: Logotipo</figcaption>
+            </figure>
+            <form>
+                <input type="text" id="p8" name="pergunta8">
+            </form>
+        </section>
+        <!-- Tabela de Pontuação-->
+        <section>
+            <h2>Tabela de Pontuação</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista ...</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Precisa melhorar ...</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td> Melhorarando ...</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Bonzinho ...</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            Boa Sorte na Próxima
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </section>
+        <!-- Listas de Respostas-->
+        <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>Clique aqui para ver as repostas !</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>dominio</li>
+                    <li>#2!23aXX</li>
+                    <li>1991</li>
+                    <li>JS, Java</li>
+                    <li>.HTML</li>
+                    <li>Type</li>
+                    <li>Java</li>
+                </ol>
+            </details>
+        </section>
+        <!-- Formulário de feedback-->
+        <section>
+            <h2>Nos de seu feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações de Contato </legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" name="nome" id="nome"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="email">Comentário:</label><br>
+                    <textarea name="comentario" id="comentario" rows="4" cols="45"></textarea><br>
+                    <button onclick="alert('Enviado')"> Enviar </button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="paragrafo-footer">&copy Quiz de Programaçao. Todos os direitos reservados ! </p>
+        <p class="paragrafo-footer">Para me conheçer clique ... <a href="sobre.html" target="_blank">
+                aqui</a></p>
+    </footer>
+</body>
+
+</html>
